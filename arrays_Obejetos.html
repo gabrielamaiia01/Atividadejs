@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script> 
+      //arrays e objetos em JS.
+      
+      let frutas = ["Maça", "Banana", "Laranja"];
+      console.log(frutas[2]) //o console vai mostrar a fruta que está no índice 0. saída: Maça
+    
+      console.log(frutas.length)
+     
+      frutas.push("Manga"); // adiciona um item no final do array. 
+      console.log(frutas)
+
+     frutas.pop(); //remove o último elemento do arrays.
+     console.log(frutas) //o item 'manga' sairá. 
+
+     console.log(frutas.length); // Imprime o número de itens no array
+
+     for (let i = 0; i < frutas.length; i++) {
+        console.log(frutas[i]); // loop para percorrer todos os itens do array.
+    }
+
+
+     let frutas2 = ["goiaba", "laranja"]
+     frutas2[1] = "pera" //altera o indice 1 por outro nome. 
+     console.log(frutas2)
+
+
+     frutas2.shift(); //remove o primeiro item.
+     console.log(frutas2)
+
+
+     frutas2.unshift("Morango");
+     console.log(frutas) //adiciona um elemento no inicio do array
+
+     console.log(frutas2.length) //retorna os números de elementos. 
+
+
+     
+     let frutas3 = ["maça", "banana", "abacaxi", "uva"]
+     console.log(frutas3)
+
+     frutas3.slice(1,0, "novo_elemento")
+     console.log(frutas3)
+
+     console.log(frutas3[frutas.length-1])
+
+
+     </script>
+   
+ 
+
+
+
+
+
+
+
+</body>
+</html>

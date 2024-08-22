@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     
+    console.log ("Digite 1 - Para Cadastrar senha. / Digite 2 - Para Cadastrar seu email. / Digite 3 - Para Apagar seu cadastro. / Digite 4 - Para Sair.")
+    
+    numero = 3
+    cadastro = ''
+
+
+
+    switch(numero){
+        case 1: 
+        cadastro = 'cadastro de senha'
+        console.log(cadastro);
+        break;
+        
+        case 2:
+        cadastro = 'cadastro de email'
+        console.log (cadastro)
+        break;
+
+        case 3: 
+        cadastro = 'cadastro apagado'
+        console.log(cadastro)
+        break;
+
+       default: 
+       cadastro = "Sair"
+        console.log(cadastro) 
+
+
+    } 
+   
+    let salario = 6000; 
+
+     if (salario < 1000){
+     console.log("voce nao tem bonus");
+     } 
+     else if (salario >= 1000 && salario <= 5000){
+        console.log("voce ganhou um bonus de 5% \n salário após o bonus: " + (salario+(salario * 0.05)));
+     } 
+     else if (salario > 5000){
+        console.log("vcce ganhou um bonus de 10% \n salário após o bonus de 10% " + (salario+(salario * 0.10)))
+     }
+      else {
+        console.log("digite um valor válido. ")
+     }
+
+
+
+     let x = 7;
+     let y = 9;
+
+     if (x > 10 || y < 5){
+        console.log ("Uma das alternativas estão corretas.")
+     } else {
+        console.log ("nenhuma das alternativas estão corretas. ")
+     }
+
+     let age = 20;
+     let temLicença = true 
+
+     if (age >=  18 && temLicença ){
+        console.log ("tem licença pra dirigir. ")
+     } else {
+        console.log ("não tem licença para dirigir.")
+     }
+     
+
+
+
+
+
+
+    </script>
+</body>
+</html>

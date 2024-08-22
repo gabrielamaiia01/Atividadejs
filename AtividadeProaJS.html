@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+   let atividade1 = "Atividade 1: " //verificar se o número é positivo, negativo ou zero.
+   
+   let number = 0
+
+
+   if (number > 0 ){
+    console.log( atividade1, "Esse número é positivo.")
+   } else if (number == 0 ){
+    console.log (atividade1, "O valor desse número é zero.")
+   } else if (number < 0 ){
+    console.log ("O valor desse número é negativo.")
+   } else {
+    console.log(atividade1, "Digite um valor válido. ")
+   }
+   
+
+
+   let atividade2 = "Atividade 2: "    //determinar se o número é par ou ímpar.
+
+   let number2 = 9
+   if(number2 % 2 == 0 ){
+    console.log(atividade2, "Esse número é par.")
+   } else if ( number2 %2 > 0 ){
+    console.log(atividade2, "Esse número é ímpar. ")
+   } else {
+    console.log (atividade2, "Digite um valor válido. ")
+   } 
+
+
+
+
+   let atividade3 = "Atividade 3: "  //descreva um programa que classifique se a pessoa é adulto, criança ou idoso.
+   let idade = 12
+      if (idade <= 12){
+        console.log(atividade3, "você é uma criança.")
+      } else if (idade > 12 & idade > 22) {
+        console.log(atividade3, "você é um adolescente.")
+      } else if (idade > 22 & idade < 60 ){
+        console.log (atividade3, "você é um adulto.")
+      }  else if (idade > 60 ){
+        console.log (atividade3, "você é um idoso.")
+      } else {
+        console.log (atividade3, "digite um número válido.")
+      }
+
+
+      let atividade4 = "Atividade 4: " //Determine a classificação de uma nota A,B,C ou D com base no seu valor número.
+      let nota = '5';
+      let classificacao = ''
+
+
+      switch (nota) {
+      case 10 & 9:
+      classificacao = " Classificação A "
+      console.log(atividade4, nota + "," + classificacao)
+      break;
+
+
+      case 8 & 7:
+      classificacao = " Classificação B "
+      console.log(atividade4, nota + "," + classificacao)
+      break;
+
+
+      case 6 :
+      classificacao = " Classificação C "
+      console.log(atividade4, nota + "," + classificacao)
+      break;  
+     
+      case 5 :
+      classificacao = " Classificação D "
+      console.log(atividade4, nota + "," + classificacao)
+      break;  
+      
+      case 4:
+      classificacao = " Classificação F"
+      console.log(atividade4, "Nota abaixo de 5, " + "," + classificacao)
+      break;
+
+      
+      default:
+      console.log(atividade4,"Digite um valor válido.")
+      }
+
+
+
+
+     let atividade5 = "Atividade 5: " //calcular bônus de um vandendor com base no seu faturamento.
+     let faturamento = 6000.00
+
+
+     if (faturamento < 1000.00){
+      console.log("você não possui bônus.")
+     }
+     
+     else if ( faturamento == 1000.00 && faturamento <= 5000.00){
+      let bonus = (faturamento * 5)/100
+      console.log (atividade5, "Seu valor com um bônus de 5%: ", faturamento + bonus)
+     }
+     
+      else if (faturamento > 5000.00 ){
+       let bonus2 = (faturamento * 10)/100
+       console.log(atividade5, "Seu valor com bônus de 10% é: ", faturamento + bonus2)
+     }
+     
+     else {
+      console.log("Digite um valor válido.")
+     }
+
+
+   for(let num = 10 ; num >= 1 ; num--){
+   console.log(num) 
+   }
+   console.log ("Feliz ano novo. ")
+
+
+
+
+  </script>
+</body>
+</html>
